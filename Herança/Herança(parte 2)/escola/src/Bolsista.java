@@ -1,4 +1,18 @@
-package PACKAGE_NAME;
+public class Bolsista extends Aluno{
+    private float bolsa;
 
-public class Bolsista {
+    public void renovarBolsa(){
+        System.out.println("Renovando a bolsa de " + this.nome);
+    }
+    public void pagarMensalidade(){
+        System.out.println(this.nome + " é bolsista!");
+    }
+
+    public float getBolsa() {
+        return bolsa;
+    }
+
+    public void setBolsa(float bolsa) {
+        this.bolsa = bolsa;
+    }
 }

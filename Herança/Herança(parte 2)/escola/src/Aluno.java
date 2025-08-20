@@ -1,4 +1,24 @@
-package PACKAGE_NAME;
+public class Aluno extends Pessoa{
+    private int matricula;
+    private String curso;
 
-public class Aluno {
+    public void pagarMensalidade(){
+        System.out.println("Matricula renovada do(a) aluno(a) " + this.nome);
+    }
+
+    public int getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(int matricula) {
+        this.matricula = matricula;
+    }
+
+    public String getCurso() {
+        return curso;
+    }
+
+    public void setCurso(String curso) {
+        this.curso = curso;
+    }
 }

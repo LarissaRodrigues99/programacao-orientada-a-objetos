@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
+//Erança pobre
+public class Visitante extends Pessoa{
 
-public class Visitante {
 }
