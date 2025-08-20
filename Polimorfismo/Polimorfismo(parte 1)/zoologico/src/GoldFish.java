@@ -1,4 +1,2 @@
-package PACKAGE_NAME;
-
-public class GoldFish {
+public class GoldFish extends Peixe{
 }

@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
+public class Tartaruga extends Reptil{
 
-public class Tartaruga {
+
+    public void locomover(){
+        System.out.println("Andando bem de vagar");
+    }
 }

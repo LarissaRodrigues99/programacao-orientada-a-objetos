@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
+public class Cachorro extends Mamifero{
 
-public class Cachorro {
+    public void enterrarOsso(){
+        System.out.println("Osso enterrado");
+    }
+
+    public void abanarRabo(){
+        System.out.println("Abanando o rabo");
+    }
 }

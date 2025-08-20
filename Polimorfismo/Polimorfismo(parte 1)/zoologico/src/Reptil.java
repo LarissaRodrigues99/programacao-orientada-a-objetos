@@ -1,10 +1,5 @@
-public class Peixe extends Animal{
-
+public class Reptil extends Animal{
     private String corEscama;
-
-    public void soltarBolha(){
-        System.out.println("Soltando bolha");
-    }
 
     public String getCorEscama() {
         return corEscama;
@@ -16,16 +11,16 @@ public class Peixe extends Animal{
 
     @Override
     public void locomover() {
-        System.out.println("Nadando");
+        System.out.println("Rastejando");
     }
 
     @Override
     public void alimentar() {
-        System.out.println("Comendo substancias");
+        System.out.println("Comendo vegetais");
     }
 
     @Override
     public void emitirSom() {
-        System.out.println("Peixe não faz soum");
+        System.out.println("Som de réptil");
     }
 }
